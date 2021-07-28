@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_course_multiple_course_menus",
+  "info": {
+    "name": "Multiple Course Menu",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menu_name": {
+      "type": "string",
+      "required": true
+    },
+    "menu_description": {
+      "type": "richtext"
+    },
+    "menu_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "ingredients": {
+      "collection": "ingredient"
+    }
+  }
+}

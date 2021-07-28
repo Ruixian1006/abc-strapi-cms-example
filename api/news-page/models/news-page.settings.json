@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_pages",
+  "info": {
+    "name": "News Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "General": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.title-thumbnail-and-description",
+      "required": true
+    }
+  }
+}

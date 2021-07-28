@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faqs",
+  "info": {
+    "name": "FAQ",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faq_question": {
+      "type": "string",
+      "required": true
+    },
+    "faq_answer": {
+      "type": "string",
+      "required": true
+    },
+    "faq_category": {
+      "model": "faq-category"
+    }
+  }
+}

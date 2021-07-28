@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_generals",
+  "info": {
+    "name": "Title & Description",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

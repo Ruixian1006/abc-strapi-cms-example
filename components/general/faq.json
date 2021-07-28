@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_faqs",
+  "info": {
+    "name": "FAQ",
+    "icon": "atlas"
+  },
+  "options": {},
+  "attributes": {
+    "faq_title": {
+      "type": "string",
+      "required": true
+    },
+    "faq_answer": {
+      "type": "richtext"
+    }
+  }
+}

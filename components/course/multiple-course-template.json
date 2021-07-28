@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_course_multiple_course_templates",
+  "info": {
+    "name": "Multiple Course Template",
+    "icon": "arrow-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "menu_item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course.multiple-course-menu"
+    },
+    "course_type": {
+      "model": "course-type"
+    }
+  }
+}

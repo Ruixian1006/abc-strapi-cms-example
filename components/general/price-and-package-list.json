@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_general_price_and_package_lists",
+  "info": {
+    "name": "Price & Package List",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "price_list_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "package_list_file": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

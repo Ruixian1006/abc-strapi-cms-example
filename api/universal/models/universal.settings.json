@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universals",
+  "info": {
+    "name": "Universal"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "Section": {
+      "type": "dynamiczone",
+      "components": [
+        "general.general",
+        "general.navbar-sub-category",
+        "general.price-and-package-list",
+        "general.navbar-dropdown",
+        "general.general-form-data",
+        "general.title-thumbnail-and-description",
+        "general.faq",
+        "general.title",
+        "general.image",
+        "general.hero-banner"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_general_navbar_sub_categories",
+  "info": {
+    "name": "Link",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    }
+  }
+}

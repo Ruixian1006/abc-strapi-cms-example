@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_general_navbar_dropdowns",
+  "info": {
+    "name": "Navbar Dropdown",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "URL": {
+      "type": "string"
+    },
+    "navbar_sub_category": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.navbar-sub-category"
+    }
+  }
+}

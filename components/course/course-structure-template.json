@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_course_course_structure_templates",
+  "info": {
+    "name": "Course Structure Template",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "course_type": {
+      "type": "string",
+      "required": true
+    },
+    "course_description": {
+      "type": "text",
+      "required": true
+    },
+    "course_structure": {
+      "type": "component",
+      "repeatable": true,
+      "component": "course.course-structure",
+      "max": 3
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.image"
+    }
+  }
+}

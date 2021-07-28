@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "studios",
+  "info": {
+    "name": "Studio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studio_name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "time",
+      "required": true,
+      "default": "10:00:00"
+    },
+    "end_time": {
+      "type": "time",
+      "required": true,
+      "default": "21:00:00"
+    },
+    "tel": {
+      "type": "biginteger"
+    },
+    "country": {
+      "model": "country"
+    },
+    "image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "travel_by_mrt": {
+      "type": "richtext"
+    },
+    "travel_by_bus": {
+      "type": "richtext"
+    },
+    "travel_by_car": {
+      "type": "richtext"
+    },
+    "opening_days": {
+      "type": "string",
+      "default": "Monday to Sunday"
+    },
+    "abc": {
+      "type": "string"
+    }
+  }
+}

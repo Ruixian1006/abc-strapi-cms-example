@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/recruitment-positions",
+      "handler": "recruitment-position.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recruitment-positions/count",
+      "handler": "recruitment-position.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/recruitment-positions/:id",
+      "handler": "recruitment-position.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/recruitment-positions",
+      "handler": "recruitment-position.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/recruitment-positions/:id",
+      "handler": "recruitment-position.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/recruitment-positions/:id",
+      "handler": "recruitment-position.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

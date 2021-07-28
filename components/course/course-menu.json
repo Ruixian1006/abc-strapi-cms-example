@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_course_single_course_menus",
+  "info": {
+    "name": "Single Course Menu",
+    "icon": "book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "menu_name": {
+      "type": "string",
+      "required": true
+    },
+    "menu_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "ingredients_icon": {
+      "collection": "ingredient"
+    },
+    "title": {
+      "type": "string"
+    },
+    "menu_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "course_type": {
+      "model": "course-type"
+    }
+  }
+}

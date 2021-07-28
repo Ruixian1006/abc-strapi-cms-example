@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_pages",
+  "info": {
+    "name": "About Us Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_and_description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.general",
+      "required": true
+    },
+    "Section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title-thumbnail-and-description"
+    }
+  }
+}

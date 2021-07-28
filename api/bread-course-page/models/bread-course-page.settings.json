@@ -1,0 +1,76 @@
+{
+  "kind": "singleType",
+  "collectionName": "bread_course_pages",
+  "info": {
+    "name": "Bread Course Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "General": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.title-thumbnail-and-description",
+      "required": true
+    },
+    "course_structure": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "course.course-structure-template"
+    },
+    "price_and_package_file": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "general.price-and-package-list"
+    },
+    "course_menu": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "course.multiple-course-template",
+        "course.course-menu",
+        "general.general",
+        "general.navbar-sub-category",
+        "general.price-and-package-list",
+        "general.navbar-dropdown",
+        "general.general-form-data",
+        "general.title-thumbnail-and-description",
+        "general.faq",
+        "general.image",
+        "general.hero-banner",
+        "course.multiple-course-menu",
+        "course.course-structure-template",
+        "course.course-structure",
+        "member-privileges.member-privileges"
+      ]
+    }
+  }
+}

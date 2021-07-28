@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "course_types",
+  "info": {
+    "name": "Course Type",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

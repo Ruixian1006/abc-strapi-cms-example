@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_general_general_form_data",
+  "info": {
+    "name": "General Form Data",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "first_name": {
+      "type": "string",
+      "required": true
+    },
+    "last_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    }
+  }
+}

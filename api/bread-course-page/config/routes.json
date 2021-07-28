@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/bread-course-page",
+      "handler": "bread-course-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/bread-course-page",
+      "handler": "bread-course-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/bread-course-page",
+      "handler": "bread-course-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

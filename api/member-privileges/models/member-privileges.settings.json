@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "member_privileges",
+  "info": {
+    "name": "Member Privileges",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Member Privileges"
+    },
+    "introduction": {
+      "type": "richtext"
+    },
+    "privileges_items": {
+      "type": "dynamiczone",
+      "components": [
+        "member-privileges.member-privileges",
+        "general.general",
+        "general.image"
+      ]
+    }
+  }
+}

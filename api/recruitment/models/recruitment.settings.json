@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "recruitments",
+  "info": {
+    "name": "Recruitment Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.general"
+    },
+    "Position": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.general"
+    }
+  }
+}

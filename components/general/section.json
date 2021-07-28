@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_sections",
+  "info": {
+    "name": "Section",
+    "icon": "angle-down"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

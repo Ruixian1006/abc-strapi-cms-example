@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menus",
+  "info": {
+    "name": "Menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Menu": {
+      "type": "dynamiczone",
+      "components": [
+        "course.course-menu",
+        "course.multiple-course-template"
+      ],
+      "required": true
+    }
+  }
+}

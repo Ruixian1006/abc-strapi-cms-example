@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "course_pages",
+  "info": {
+    "name": "Course Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "General": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.title-thumbnail-and-description",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "price_and_package_list": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.price-and-package-list",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "FAQ": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.faq",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

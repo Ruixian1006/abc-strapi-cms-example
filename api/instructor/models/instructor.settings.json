@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instructors",
+  "info": {
+    "name": "Instructor",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "instructor_name": {
+      "type": "string"
+    },
+    "instructor_image": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "instructor_description": {
+      "type": "text"
+    },
+    "instructor_comments": {
+      "type": "text"
+    },
+    "instructor_quote": {
+      "type": "text"
+    },
+    "instructor_spoken_languages": {
+      "type": "text"
+    },
+    "instructor_speciality": {
+      "type": "text"
+    },
+    "social_media_url": {
+      "type": "text"
+    }
+  }
+}

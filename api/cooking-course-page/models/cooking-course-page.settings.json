@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "cooking_course_pages",
+  "info": {
+    "name": "Cooking Course Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "General": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.title-thumbnail-and-description",
+      "required": true
+    }
+  }
+}

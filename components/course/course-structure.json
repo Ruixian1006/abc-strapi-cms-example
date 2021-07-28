@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_course_course_structures",
+  "info": {
+    "name": "Course Structure",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number_of_lesson": {
+      "type": "string",
+      "required": true
+    },
+    "valid_period": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

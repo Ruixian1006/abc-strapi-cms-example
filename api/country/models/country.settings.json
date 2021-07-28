@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "countries",
+  "info": {
+    "name": "Country",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "country_code": {
+      "type": "string",
+      "maxLength": 3,
+      "required": true,
+      "minLength": 2
+    },
+    "country_name": {
+      "type": "string",
+      "required": true
+    },
+    "course": {
+      "via": "countries",
+      "model": "course"
+    }
+  }
+}

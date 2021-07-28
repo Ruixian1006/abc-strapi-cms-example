@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/cooking-course-page",
+      "handler": "cooking-course-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/cooking-course-page",
+      "handler": "cooking-course-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/cooking-course-page",
+      "handler": "cooking-course-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

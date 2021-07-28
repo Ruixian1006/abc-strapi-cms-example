@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_titles",
+  "info": {
+    "name": "Title",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    }
+  }
+}

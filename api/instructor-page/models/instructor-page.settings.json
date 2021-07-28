@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "instructor_pages",
+  "info": {
+    "name": "Instructor Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "General": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.title-thumbnail-and-description",
+      "required": true
+    }
+  }
+}
